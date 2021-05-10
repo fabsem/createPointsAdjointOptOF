@@ -14,6 +14,7 @@ points_spessore = linspace(min(2),max(2), layers_s);
 points = zeros(2*length(points_r),3);
 
 k = 1;
+
 for i = 1:length(points_r)
     for j = 1:length(points_spessore)
     points(k,:) = [points_r(i), points_spessore(j), points_r(i)];
